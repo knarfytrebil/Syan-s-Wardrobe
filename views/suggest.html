@@ -1,0 +1,78 @@
+<html ng-app="ionic.example">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Tabs</title>
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- ionic css -->
+    <script src="../dist/js/ionic.js"></script>
+    <link rel="stylesheet" href="../dist/css/ionic.css">
+    <link rel="stylesheet" href="../css/custom.css">
+  </head>
+
+  <body>
+  <div class="bar bar-header bar-light">
+      <h5>Today's weather in Cambridge, 15°</h5>
+    <button class="button button-clear icon ion-ios7-search"></button>
+  </div>
+
+  <content style="margin-top:42px;height:100%;display:block;overflow-y:scroll;">
+
+    <!-- Line for Coat -->
+    <div class="row">
+      <h4>Coat</h4>
+    </div>
+    <div class="row ">
+      <div class="col col-33 wd-pic">Name</div>
+      <div class="col col-33 wd-pic">Name</div>
+      <div class="col col-33 wd-pic">Name</div>
+    </div>
+
+    <!-- Line for Tops -->
+    <div class="row">
+      <h4>Tops</h4>
+    </div>
+    <div class="row">
+      <div class="col col-33 wd-pic">Name</div>
+      <div class="col col-33 wd-pic">Name</div>
+      <div class="col col-33 wd-pic">Name</div>
+    </div>
+
+    <!-- Line for Bottoms -->
+    <div class="row">
+      <h4>Bottoms</h4>
+    </div>
+    <div class="row">
+      <div class="col col-33 wd-pic">Name</div>
+      <div class="col col-33 wd-pic">Name</div>
+      <div class="col col-33 wd-pic">Name</div>
+    </div>
+
+    <div class="list">
+
+  <div class="item" href="#">
+    What to wear...
+<button class="button button-clear button-balanced">
+  to school
+</button>
+<button class="button button-clear button-royal">
+  to the mall
+</button>
+<button class="button button-clear button-positive">
+  to work
+</button>
+
+  </div>
+  </content>
+
+  <div class="button-bar">
+  <button class="button button-clear icon ion-ios7-browsers-outline"></button>
+  <button class="button button-clear ion-ios7-heart-outline"></button>
+  <button class="button button-clear icon ion-ios7-camera-outline"></button>
+  <button class="button button-clear icon ion-ios7-person-outline"></button>
+  <button class="button button-clear icon ion-ios7-gear-outline"></button>
+</div>
+
+  </body>
+</html>
